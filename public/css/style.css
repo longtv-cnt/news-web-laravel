@@ -1,0 +1,38 @@
+.chon{
+    background-color: #bce01b ;
+    border: 1px solid #cccccc;
+    color: #bb1a35;
+
+}
+nav{
+    background-color: #000;
+    color: #fff;
+}
+
+a
+{
+    text-decoration:none;
+}
+.footer{
+    background-color: #ccc;
+    color: #000;
+
+}
+
+h5{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.imgp{
+    width: 50%;
+    height: auto;
+}
+
+.content{
+
+}
+body
+{
+    font-size: 15px;
+}

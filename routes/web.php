@@ -80,3 +80,4 @@ Route::get('/detail/{id}',[PostController::class,'showDetail'])->name('client.po
 Route::get('{slug}/post',[PostController::class,'fillterByCat'])->name('postbycat');
 Route::get('/user/update',[UserController::class,'showClientUser'])->name('user.show.client');
 Route::put('/user/update',[UserController::class,'updateClientUser'])->name('update.user.client');
+Route::get('/client/post/{id}', [PostController::class, 'destroy'])->name('client.post.destroy');

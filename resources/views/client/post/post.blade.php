@@ -29,7 +29,7 @@
                         <a href="{{ route('client.post.detail', ['id' => $post->id]) }}"
                             class="btn btn-primary">Xem</a>
                         <a href="" class="btn btn-warning">Sửa</a>
-                        <a href="" class="btn btn-danger">Xóa</a>
+                        <a href="{{ route('client.post.destroy', ['id' => $post->id])  }}" class="btn btn-danger">Xóa</a>
                     </td>
                 </tr>
             @endforeach
